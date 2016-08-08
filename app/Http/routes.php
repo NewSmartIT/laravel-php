@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::singularResourceParameters();
+
+Route::resource('articles', 'ArticlesController');
