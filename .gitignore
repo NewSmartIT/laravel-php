@@ -5,3 +5,6 @@ Homestead.yaml
 Homestead.json
 .env*
 !.env.example
+/bower_components
+/public/js/*
+/public/css/
