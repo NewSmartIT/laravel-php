@@ -18,3 +18,4 @@ Route::singularResourceParameters();
 
 Route::resource('articles', 'ArticlesController');
 Route::resource('authors', 'AuthorsController');
+Route::resource('articles.recommendations', 'RecommendationsController', ['only' => ['create', 'store']]);
